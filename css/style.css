@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Raleway:wght@400;500;600;700&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  /*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Improve media defaults */
+img,
+picture,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* Remove built-in form typography styles */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Create Custom Scroll-Bar */
+::-webkit-scrollbar {
+  width: 10px;
+  background: #c5cadf;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #70768a;
+  border-radius: 2em;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #454f6b;
+}
+
+/* CSS Custom Property */
+:root {
+  /* Background */
+  --bg-white: #fff;
+
+  /* Color */
+  --very-dark-blue: hsl(243, 87%, 12%);
+  --desaturated-blue: hsl(238, 22%, 44%);
+  --bright-blue: hsl(224, 93%, 58%);
+  --moderate-cyan: hsl(170, 45%, 43%);
+  --light-grayish-blue: hsl(240, 75%, 98%);
+  --light-gray: hsl(0, 0%, 75%);
+
+  /* Typography */
+  --primary-font: 'Raleway', sans-serif;
+  --secondary-font: 'Open Sans', sans-serif;
+  --text-white: #fff;
+}
+
+h1,
+h2,
+h3,
+header,
+nav {
+  font-family: var(--primary-font);
+}
+
+body {
+  font-family: var(--secondary-font);
+}
+
+/* Common CSS Classes */
+.container {
+  max-width: 1440px;
+  width: 85%;
+  margin-inline: auto;
+}
