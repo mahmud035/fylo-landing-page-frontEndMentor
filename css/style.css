@@ -100,7 +100,8 @@ body {
 
 /* Header */
 header {
-  min-height: 100vh;
+  min-height: fit-content;
+  padding-bottom: 10rem;
 }
 
 /* Navbar */
@@ -156,7 +157,7 @@ nav .navbar-menu a:first-child {
 
 /* Testimonial Section */
 .testimonial-wrapper {
-  padding: 6rem 0 5rem;
+  padding: 7rem 0 5rem;
   background-color: var(--light-grayish-blue);
   background: url(../images/bg-curve-desktop.svg) no-repeat;
   background-position: top center;
@@ -210,4 +211,48 @@ nav .navbar-menu a:first-child {
 
 .testimonial-info a:hover i {
   transform: translateX(5px);
+}
+
+/* testimonial-card */
+.testimonial-card {
+  margin-top: 2.5rem;
+  background-color: var(--bg-white);
+  border-radius: 8px;
+  padding: 2rem;
+  max-width: 60%;
+}
+
+.testimonial-card > img {
+  width: 20px;
+}
+
+.testimonial-card > p {
+  color: var(--very-dark-blue);
+  font-family: var(--primary-font);
+  font-weight: 500;
+  line-height: 1.5rem;
+  padding: 1rem 0;
+}
+
+.testimonial-card .user-info {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.user-info img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.user-name-designation h5 {
+  font-size: 700;
+  padding-bottom: 2px;
+}
+
+.user-name-designation p {
+  font-size: 12px;
+  color: var(--very-dark-blue);
+  font-weight: 500;
 }
