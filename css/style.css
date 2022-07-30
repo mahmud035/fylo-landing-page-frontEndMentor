@@ -303,3 +303,79 @@ nav .navbar-menu a:first-child {
   border-radius: 3px;
   outline: none;
 }
+
+/* Footer  */
+footer {
+  background-color: var(--very-dark-blue);
+  padding: 5rem 0;
+}
+
+.footer-logo img {
+  max-width: 130px;
+}
+
+.footer-content {
+  color: var(--light-grayish-blue);
+  padding-top: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  align-items: start;
+  gap: 1.8rem;
+}
+
+.contact-info img {
+  max-width: 15px;
+}
+
+.contact-info p {
+  font-size: 13.675px;
+}
+
+.phone,
+.email {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.phone {
+  padding-bottom: 0.8rem;
+}
+
+.different-link {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.different-link {
+  justify-self: center;
+}
+
+.different-link a {
+  color: var(--light-grayish-blue);
+  font-size: 15px;
+}
+
+.social-icon a {
+  border: 1px solid var(--bg-white);
+  border-radius: 50%;
+  padding: 4px 7px;
+  margin-right: 10px;
+  background-color: transparent;
+  transition: 0.3s ease;
+}
+
+.social-icon a i {
+  color: var(--text-white);
+  font-size: 13px;
+  transition: 0.3s ease;
+}
+
+.social-icon a:hover {
+  border: 1px solid var(--pink);
+}
+
+.social-icon a:hover i {
+  color: var(--pink);
+}
