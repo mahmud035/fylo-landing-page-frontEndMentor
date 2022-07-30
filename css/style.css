@@ -117,6 +117,10 @@ nav .navbar-menu a {
   color: var(--very-dark-blue);
 }
 
+nav .navbar-menu a:first-child {
+  padding-left: 0;
+}
+
 .showcase-content {
   display: flex;
   justify-content: space-between;

@@ -1,0 +1,40 @@
+@media (max-width: 576px) {
+  /* Header */
+  /* Navbar */
+  nav .logo {
+    max-width: 85px;
+  }
+
+  nav .navbar-menu a {
+    padding-left: 1.5rem;
+    font-size: 13.67px;
+  }
+
+  /* Showcase */
+  .showcase-content {
+    flex-direction: column-reverse;
+    gap: 2.5rem;
+    text-align: center;
+  }
+
+  .showcase-info h1 {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+
+  .showcase-info p {
+    font-size: 15px;
+    width: 100%;
+  }
+
+  .showcase-info form input[type='email'] {
+    width: 100%;
+    padding: 0.7rem 0.7rem;
+    margin-bottom: 1rem;
+    font-size: 12px;
+  }
+
+  .main-btn {
+    width: 100%;
+  }
+}
