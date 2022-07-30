@@ -157,6 +157,7 @@ nav .navbar-menu a:first-child {
 
 /* Testimonial Section */
 .testimonial-wrapper {
+  min-height: fit-content;
   padding: 7rem 0 5rem;
   background-color: var(--light-grayish-blue);
   background: url(../images/bg-curve-desktop.svg) no-repeat;
@@ -215,7 +216,7 @@ nav .navbar-menu a:first-child {
 
 /* testimonial-card */
 .testimonial-card {
-  margin-top: 2.5rem;
+  margin-top: 3rem;
   background-color: var(--bg-white);
   border-radius: 8px;
   padding: 2rem;
