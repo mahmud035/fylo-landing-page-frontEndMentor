@@ -137,6 +137,7 @@ nav .navbar-menu a:first-child {
 
 .showcase-info p {
   color: var(--very-dark-blue);
+  font-family: var(--primary-font);
   font-weight: 500;
   line-height: 1.5rem;
   padding: 1rem 0 1.5rem;
@@ -151,4 +152,62 @@ nav .navbar-menu a:first-child {
   font-weight: 500;
   border: 1px solid var(--very-dark-blue);
   border-radius: 3px;
+}
+
+/* Testimonial Section */
+.testimonial-wrapper {
+  padding: 6rem 0 5rem;
+  background-color: var(--light-grayish-blue);
+  background: url(../images/bg-curve-desktop.svg) no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.testimonial-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.testimonial-info h1 {
+  font-size: 2.3rem;
+  line-height: 3rem;
+  font-weight: 700;
+  color: var(--very-dark-blue);
+}
+
+.testimonial-info > p {
+  color: var(--very-dark-blue);
+  font-weight: 500;
+  line-height: 1.5rem;
+  width: 90%;
+}
+
+.testimonial-info > p:nth-child(2) {
+  padding: 1.6rem 0 1rem;
+}
+
+.testimonial-info > p:nth-child(3) {
+  padding-bottom: 1rem;
+}
+
+.testimonial-info a {
+  display: inline-block;
+  color: var(--moderate-cyan);
+  font-size: 17px;
+  font-weight: 500;
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--moderate-cyan);
+  transition: 0.3s ease;
+}
+
+.testimonial-info a i {
+  font-size: 14px;
+  margin-left: 5px;
+  transition: 0.3s ease;
+}
+
+.testimonial-info a:hover i {
+  transform: translateX(5px);
 }
