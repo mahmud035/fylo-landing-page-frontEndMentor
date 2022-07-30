@@ -267,7 +267,7 @@ nav .navbar-menu a:first-child {
 
 .sign-up-content {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 3rem;
 }
 
@@ -285,6 +285,10 @@ nav .navbar-menu a:first-child {
   padding-top: 1.5rem;
   line-height: 1.5rem;
   color: var(--light-grayish-blue);
+}
+
+.sign-up-form {
+  width: 100%;
 }
 
 .sign-up-form input[type='email'] {

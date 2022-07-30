@@ -1,5 +1,5 @@
 @media (max-width: 1420px) {
-  /* Showcase */
+  /** Showcase */
   .showcase-info h1,
   .testimonial-info h1 {
     font-size: 2.1rem;
@@ -13,7 +13,7 @@
 }
 
 @media (max-width: 991px) {
-  /* Showcase */
+  /** Showcase */
   .showcase-content {
     flex-direction: column;
     gap: 3rem;
@@ -37,7 +37,7 @@
 }
 
 @media (min-width: 850px) and (max-width: 991px) {
-  /* Showcase */
+  /** Showcase */
   .showcase-content {
     align-items: flex-start;
   }
@@ -51,6 +51,21 @@
   .showcase-img img,
   .testimonial-img img {
     padding: 0 4rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* Sign Up Section */
+  .sign-up-form input[type='email'] {
+    width: 100%;
+    margin-inline: auto;
+    margin-bottom: 1rem;
+  }
+
+  .sign-up-btn {
+    display: block;
+    width: 100%;
+    margin-inline: auto;
   }
 }
 
@@ -132,5 +147,32 @@
 
   .testimonial-card > p {
     font-size: 13px;
+  }
+
+  /** Sign Up Section  */
+  .sign-up-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sign-up-info h3 {
+    font-size: 1.1rem;
+  }
+
+  .sign-up-info p {
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .sign-up-form input[type='email'] {
+    width: 90%;
+    margin-inline: auto;
+    margin-bottom: 1rem;
+  }
+
+  .sign-up-btn {
+    display: block;
+    width: 90%;
+    margin-inline: auto;
   }
 }
