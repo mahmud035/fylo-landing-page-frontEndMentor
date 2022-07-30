@@ -85,3 +85,66 @@ body {
   width: 85%;
   margin-inline: auto;
 }
+
+.main-btn {
+  background-color: var(--bright-blue);
+  color: var(--text-white);
+  border: 0;
+  padding: 0.7rem 2.5rem;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+/* Header */
+header {
+  min-height: 100vh;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 0 5rem;
+}
+
+nav .navbar-menu a {
+  padding-left: 2.5rem;
+  font-weight: 500;
+  color: var(--very-dark-blue);
+}
+
+.showcase-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.showcase-info h1 {
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+  font-weight: 700;
+  color: var(--very-dark-blue);
+}
+
+.showcase-info p {
+  color: var(--very-dark-blue);
+  font-weight: 500;
+  line-height: 1.5rem;
+  padding: 1rem 0 1.5rem;
+  width: 90%;
+}
+
+.showcase-info form input[type='email'] {
+  width: 50%;
+  padding: 0.6rem 0.7rem;
+  margin-right: 0.5rem;
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid var(--very-dark-blue);
+  border-radius: 3px;
+}
