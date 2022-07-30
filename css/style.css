@@ -257,3 +257,45 @@ nav .navbar-menu a:first-child {
   color: var(--very-dark-blue);
   font-weight: 500;
 }
+
+/* Sign Up Section  */
+.sign-up-wrapper {
+  padding: 5rem 0;
+  background-color: var(--desaturated-blue);
+  color: var(--text-white);
+}
+
+.sign-up-content {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.sign-up-info,
+.sign-up-form {
+  flex: 1;
+}
+
+.sign-up-info h3 {
+  font-size: 1.6rem;
+}
+
+.sign-up-info p {
+  width: 80%;
+  padding-top: 1.5rem;
+  line-height: 1.5rem;
+  color: var(--light-grayish-blue);
+}
+
+.sign-up-form input[type='email'] {
+  display: block;
+  width: 70%;
+  padding: 0.8rem 0.7rem;
+  margin-bottom: 1.5rem;
+  font-size: 12px;
+  font-weight: 500;
+  background-color: var(--bg-white);
+  border: 1px solid var(--very-dark-blue);
+  border-radius: 3px;
+  outline: none;
+}
