@@ -318,7 +318,8 @@ footer {
   color: var(--light-grayish-blue);
   padding-top: 1.5rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  /* grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); */
+  /** INFO: don't need this line in this footer. Set number of column within media-query.css file */
   align-items: start;
   gap: 1.8rem;
 }
