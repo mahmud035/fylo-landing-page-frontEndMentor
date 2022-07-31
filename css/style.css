@@ -98,6 +98,10 @@ body {
   transition: 0.3s ease;
 }
 
+.main-btn:hover {
+  background-color: #6b91fa;
+}
+
 /* Header */
 header {
   min-height: fit-content;
@@ -356,6 +360,11 @@ footer {
 .different-link a {
   color: var(--light-grayish-blue);
   font-size: 15px;
+  transition: 0.3s ease;
+}
+
+.different-link a:hover {
+  color: var(--desaturated-blue);
 }
 
 .social-icon a {
@@ -374,7 +383,7 @@ footer {
 }
 
 .social-icon a:hover {
-  border: 1px solid var(--pink);
+  border: 1px solid var(--bright-blue);
 }
 
 .social-icon a:hover i {
