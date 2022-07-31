@@ -82,7 +82,7 @@
   .sign-up-form input[type='email'] {
     width: 100%;
     margin-inline: auto;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
 
   .sign-up-btn {
@@ -138,6 +138,13 @@
 
   .main-btn {
     width: 100%;
+    margin-top: 0.8rem;
+  }
+
+  small.error-message {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
   }
 
   /** Testimonial Section */
@@ -198,14 +205,16 @@
 
   .sign-up-form input[type='email'] {
     width: 90%;
-    margin-inline: auto;
-    margin-bottom: 1rem;
   }
 
   .sign-up-btn {
     display: block;
     width: 90%;
     margin-inline: auto;
+  }
+
+  .sign-up-form span.error-message {
+    width: 90%;
   }
 
   /** Footer */
